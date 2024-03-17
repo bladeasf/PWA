@@ -10,8 +10,8 @@ module.exports = () => {
   return {
     mode: 'development',
     entry: {
-      main: "/Users/blade/PWA/Develop/client/src/js/index.js",
-      install: './src/js/install.js'
+      main: "./src/js/index.js",
+      install: "./src/js/install.js"
     },
     output: {
       filename: '[name].bundle.js',
@@ -42,25 +42,9 @@ module.exports = () => {
         icons: [
 
           {
-            src: path.resolve("./src/images/logo.png"),
+            src: path.resolve("src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
-          },
-        ],
-        screenshots: [
-
-          {
-            src: "assets/icons/icon_512x512.png",
-            sizes: "512x512",
-            type: "image/png",
-            form_factor: "wide",
-            label: "text editor",
-          },
-          {
-            src: "assets/icons/icon_384x384.png",
-            sizes: "384x384",
-            type: "image/png",
-            label: "text editor",
           },
         ],
       }),
