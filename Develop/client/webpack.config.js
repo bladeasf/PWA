@@ -10,7 +10,7 @@ module.exports = () => {
   return {
     mode: 'development',
     entry: {
-      main: './src/js/index.js',
+      main: "/Users/blade/PWA/Develop/client/src/js/index.js",
       install: './src/js/install.js'
     },
     output: {
