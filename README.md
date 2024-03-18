@@ -14,7 +14,7 @@ SO THAT I can reliably retrieve them for later use
 
 ## Instalation 
 
-Navigate to the client directory from your terminal and run 'npm install'.
+Navigate to the root directory from your terminal and run 'npm install'.
 
 ## Usage
 
