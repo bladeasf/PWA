@@ -14,9 +14,14 @@ SO THAT I can reliably retrieve them for later use
 
 ## Instalation 
 
-Navigate to the client direcorty from your terminal and run 'npm install'.
+Navigate to the client directory from your terminal and run 'npm install'.
 
 ## Usage
 
 once you run npm install, you can start up the application by 'npm run start'
 
+
+## This is a priew of my application
+
+
+![screenshot of my application](PWA-TE.png) 
